@@ -1,0 +1,91 @@
+/*________________________________*/
+/*____________Ingreso____________*/
+/*________________________________*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#form_registrarse{
+
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px;
+    margin: 30px;
+    background-color: aqua;
+    border-radius: 31px;
+    text-align: center;
+    font: 100px;
+    width: 300px;
+    
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+    padding-left: 30%;
+    padding-bottom: 150px;
+    padding-right: 30% ;
+}
+
+#in_login_password{
+
+    border-radius: 5px;
+    height: 36px;
+    width: 300px;
+    font-size: 20px;
+    margin: 5px;
+
+}
+#in_login_username{
+    border-radius: 5px;
+    height: 36px;
+    width: 300px;
+    font-size: 20px;
+    margin: 5px;
+}
+#in_login_captcha{
+    
+    border-radius: 5px;
+    height: 36px;
+    width: 300px;
+    font-size: 20px;
+    
+    margin: 5px;
+}
+
+
+#btn_ingreso{
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    
+    border-radius: 10px;
+    color: var(--negro);
+}
+
+
+#contenedor_Ingreso{
+    width: 100vw;
+    height: 420px;
+    display: flex;
+    
+
+}
+
+#lavel{
+    border-radius: 5px;
+    height: 36px;
+    width: 300px;
+    font-size: 20px;
+    margin: 5px;
+    
+}

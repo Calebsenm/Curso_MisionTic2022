@@ -1,0 +1,1 @@
+SELECT id, usuario, contrasena ,fecha_registro FROM `usuarios` ORDER BY id desc limit 5;

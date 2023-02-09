@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+margin: 0;
+padding: 0;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+:root {
+    --cafe-bg-color: #1c440a;
+    --amarillo-bg-color: #FFFFA7;
+    --rosado-bg-color: #FAA786;
+    --rojo-bg-color: #FF4343;
+    --naranja-bg-color: #FF9021;
+    --azul-bg-color: #00e1ff;
+    --piel-bg-color: #0ef034;   
+}
+
+/*________________________________*/
+/*____________INDEX _______________*/
+/*________________________________*/
+#vertical_navbar {
+    
+    position: absolute;
+    width: 10%;
+    height: 100vh;
+    background-color: var(--azul-bg-color);
+    display: inline-block;
+    margin-left: 90%;
+}
+#logo_navbar{
+    width: 150px;
+    height: 150px;
+    padding-left: 25px;
+    padding-top: 25px;
+    
+}
+
+#contenedor{
+    
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-image: url("./img/logo3.png");
+    background-color: transparent;
+    
+    margin-right: 10%;
+    background-position-y:30%;
+    
+
+}
+#parrafo1{
+    text-align: center;
+}
+
+
+
+#btn_Registro{
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    position: absolute;
+    left:    25px;
+    bottom:   10px;
+    border: 1px solid var(--cafe-bg-color);
+    border-radius: 10px;
+    color: var(--cafe-bg-color);
+    background-color: rgb(243, 229, 222);
+}
+
+#link_Registro{
+
+    text-decoration: none;
+}
+
+#buttonreg_nav:hover{
+    border: 2px solid var(--cafe-bg-color);
+    background-color: var(--piel-bg-color);
+    box-shadow: 2px 2px 10px 2px #8000006c;
+}
+
+
+#section_Home{
+    background-color: rgb(255, 255, 255,);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: var(--piel-bg-color);
+    font-weight: 600;
+    
+    background: rgba(3, 3, 3, 0.2) fixed no-repeat 30% 30%;
+    background-size: cover;
+    /* background-image: url("./img/logo2.png");  */
+
+}
+
+
+
+
+#section_Home #car{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}
+#section_Home #nombre1{
+    width: 300px;
+    height: 00px;
+    margin: 15px 100px 0px 100px;
+    font-size: 50px;
+    transition: all 1.0s;
+    user-select: none;
+}
+
+#section_Home #nombre2{
+    width: 300px;
+    margin: 0px 10px 15px 179px;
+    font-size: 50px;
+    user-select: none;
+}
+
+#section_Home span{
+    font-size: 60px;
+    transition: all 1.0s;
+    user-select: none;
+}
+
+#section_Home #descripcion{
+    width: 580px;
+    margin: 10px;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: justify;
+    user-select: none;
+    font-display: var(--azul-bg-color);
+}
+
+
+#section_Home #car:hover #nombre1{
+    height: 50px;
+    margin-top: -5%;
+}
+#section_Home #car:hover span{
+    font-size: 70px;
+    color: var(--piel-bg-color);
+
+}
+
+/*________________________________*/
+/*____________REGISTRO____________*/
+/*________________________________*/
+
+#contenedor_registro{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: rgba(3, 3, 3, 0.2) fixed no-repeat 70% 70%;
+    background-size: cover;
+    background-image: url("imagen/fondo1.jpeg");
+
+}
+#form_registrarse {
+    width:300px;
+	padding:20px;
+	border-radius:10px;
+	margin:auto;
+	background-color:var(--azul-bg-color);
+}
+
+#form_registrarse #logo{
+    width:150px;
+	margin:10px 75px 10px 75px;
+}
+
+
+
+#form_registrarse input{
+    width: 200px;
+    height: 30px;
+    margin:  20px auto ;
+    display: block;
+
+    border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+
+
+	padding:3px 10px;
+    
+}
+
+#btn_registrar_usuario{
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid var(--azul-bg-color);
+    border-color: var(--azul-bg-color);
+    border-radius: 10px;
+    color: var(--negro);
+}
+
+#btn_registrar_usuario:hover{
+    border: 2px solid var(--azul-bg-color);
+    background-color: var(--azul-bg-color);
+    box-shadow: 2px 2px 10px 2px #0cf0326c;
+}
+
+

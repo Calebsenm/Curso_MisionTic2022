@@ -1,0 +1,24 @@
+Metodologías ágiles.
+• HTML/CSS.
+• GitHub.
+• Fundamentos JavaScript.
+• Frameworks JavaScript.
+• API REST.
+• Dominios, protocolos y servidores.
+• Despliegue de soluciones.
+• Entornos de pruebas y entornos de producción.
+
+
+https://drive.google.com/drive/folders/1SwInNSeMk6Yh6XnziYQhI8W7Y0I2R_zG
+
+
+ese es para los codigos de la clase
+
+https://drive.google.com/drive/folders/1qF6I35FJ6PodM70nT0DxRNq8zHtqVgzN?usp=sharing
+ 
+
+link para los archivos 
+
+https://drive.google.com/drive/folders/1qF6I35FJ6PodM70nT0DxRNq8zHtqVgzN?usp=sharing
+
+hacer una pagina web sobre un artista con toda esta imformacion para hacer...

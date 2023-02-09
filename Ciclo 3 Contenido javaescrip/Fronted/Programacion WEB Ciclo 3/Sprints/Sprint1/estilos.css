@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+#vertical_navbar{
+    background-color: rgb(151, 165, 165);
+    width: 150px;
+    height: 100%;
+    /* position: absolute; */
+    right :0;
+    padding: 2;
+    right: 0px;
+     
+    
+}
+
+
+#logo_navbar{
+    height: 80px;
+    width: 70px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 7px;
+
+    
+}
+#btn_Registro{
+    text-align: center;
+    margin-top: 320%;
+    margin-right: 20%;
+    margin-left: 20%;
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+    background-color: rgb(0, 255, 234);
+    
+    font-size: large;
+}
+
+#link_Registro{
+    color: rgb(0, 0, 0);
+}
+#in_nombre_usuario{
+    border-radius: 5px;
+    height: 36px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+
+#in_contraseña{
+    border-radius: 5px;
+    height: 36px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#in_confirmar_contrasena{
+    border-radius: 5px;
+    height: 36px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#btn_registrar_usuario {
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+}
+#form_registrarse{
+
+    display: block;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    margin: 30px;
+    background: #b4e6b4;
+    border-radius: 10px;
+    
+}
