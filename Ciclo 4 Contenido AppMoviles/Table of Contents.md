@@ -1,6 +1,6 @@
 ##### MINTIC-Ciclo 4: Desarrollo de aplicaciones  
 
-<a target="_blank" href="Documentos/M1/Actividad de aprendizaje 1.html" />
+<a target="_blank" href="Documentos/M1/Actividad de aprendizaje 1.md" />
     + 1. Actividad 1: Aprende sobre Diseño centrado en el usuario y experiencia de usuario
 </a>
 
